@@ -1,0 +1,12 @@
+@import 'react-slideshow-image/dist/styles.css';
+
+.slide-container {
+    text-align: center;
+    max-width: 720px;
+    margin: auto;
+    margin-top: 20px;
+}
+.image-container img {
+    width: 83%;
+    height: 500px;
+}

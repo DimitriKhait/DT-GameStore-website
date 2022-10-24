@@ -1,0 +1,18 @@
+.about {
+    color: #fff;
+    text-align: left;
+    margin: auto;
+    width: 70%;
+    border: 2px solid white;
+    padding: 10px;
+    font-size: x-large;
+}
+
+.youtubeVideoDiv {
+    text-align: center;
+}
+
+.youtubeVideoTitle {
+    color: #fff;
+    margin-top: 50px;
+}

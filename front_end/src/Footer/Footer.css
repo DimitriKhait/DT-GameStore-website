@@ -1,0 +1,42 @@
+/* Footer */
+
+.footerWrap {
+    position: absolute;
+    /* bottom: 60px;
+  right: 0;
+  left: 0; */
+    width: 100%;
+    /* min-height: 120vh; */
+    height: calc(100%-60px);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #333;
+}
+.footer a {
+    color: #fff;
+}
+
+.footer .social > * {
+    margin-right: 20px;
+}
+
+.footer a .icons {
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 40px;
+}
+
+.footer a .icons:hover {
+    color: #28a745;
+}
+
+.para {
+    color: #fff;
+    font-size: 20px;
+}

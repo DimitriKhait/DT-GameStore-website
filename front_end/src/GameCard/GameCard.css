@@ -1,0 +1,78 @@
+.gameCard .title {
+    padding-top: 15px;
+    font-size: 50px;
+}
+
+.gameCard .gameCardWrapper {
+    max-width: fit-content;
+    border: 5px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+.gameCard .picDiv img {
+    width: 100%;
+    margin-right: 40px;
+}
+
+.gameCard .gameCardWrapper .detailsDiv {
+    display: block;
+    color: #fff;
+    text-align: center;
+}
+
+.gameCard .gameCardWrapper .detailsDiv h2 {
+    margin-top: 50px;
+}
+
+.gameCard .descriptionDiv {
+    max-width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    color: #fff;
+    text-align: left;
+}
+.gameCard .addGameToCartDiv {
+    align-self: baseline;
+}
+
+.gameCard .addGameToCartButton {
+    background-color: #04aa6d;
+    color: white;
+    font-size: x-large;
+    height: 50px;
+    margin: 15px 0;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    border-radius: 30px;
+}
+.gameCard .addGameToCartButton:hover {
+    opacity: 0.8;
+}
+
+.displayOnlyWhenNotLoggedIn p {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.displayOnlyWhenNotLoggedIn .paraLogInStyle {
+    color: red;
+}
+
+.displayOnlyWhenNotLoggedIn .paraLogInStyle:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+@media only screen and (min-width: 768px) {
+    .gameCard .picDiv img {
+        max-width: 480px;
+    }
+}

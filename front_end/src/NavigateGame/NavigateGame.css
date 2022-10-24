@@ -1,0 +1,15 @@
+.navigateGame {
+    padding: 10px;
+}
+
+.gamesGallery * {
+    display: block;
+}
+
+.gamesGallery {
+    border: 2px solid white;
+    text-align: center;
+}
+.gamesGallery img {
+    width: 350px;
+}

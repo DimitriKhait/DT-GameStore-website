@@ -1,0 +1,42 @@
+/* Bordered form */
+.loginForm {
+    border: 3px solid #f1f1f1;
+    background-color: lightgray;
+    margin: 15px auto;
+    max-width: 400px;
+    padding: 15px;
+}
+
+/* Full-width inputs */
+.loginForm input[type='email'],
+.loginForm input[type='password'] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.loginForm button {
+    background-color: #04aa6d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-top: 25px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: x-large;
+}
+
+/* Add a hover effect for buttons */
+.loginForm button:hover {
+    opacity: 0.8;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}

@@ -1,0 +1,65 @@
+/* Navbar */
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  padding: 0 10px;
+}
+
+.navbar .navItem {
+  color: #fff;
+  padding: 10px 15px;
+  font-size: large;
+  text-decoration: none;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.logoName {
+  color: #28a745;
+}
+
+.navbar .navItem:hover {
+  border-bottom: #28a745 1px solid;
+  cursor: pointer;
+}
+
+.navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.navbar .logo {
+  font-weight: 400;
+}
+
+.navbar .notLoginYet {
+  display: block;
+}
+
+.navbar .LoggedIn {
+  display: none;
+  /* align-items: center; */
+}
+
+.shoppingCartIcon {
+  height: 30px;
+}
+
+.navbar .loggedIn .nameCartLogoutUl {
+  align-items: center;
+}
+
+.navbar .userNameInNavbar {
+  color: #28a745;
+}
+.navbar .logoutNavBar {
+  color: red;
+}

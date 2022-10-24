@@ -1,0 +1,24 @@
+.gameGallery {
+  color: #fff;
+}
+
+.navigateGameDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.gamesGallery:hover {
+  cursor: pointer;
+  background-color: #28a745;
+}
+.gameGallery .title {
+  margin-top: 50px;
+}
+.gameGallery .searchBarDiv {
+  margin-top: 30px;
+}
+.gamesGallery img {
+  height: 493px;
+}

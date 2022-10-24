@@ -1,0 +1,33 @@
+.cartGameListItem {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.cartGameListItem .removeGameButton {
+  height: 30px;
+  margin-left: 10px;
+  background-color: red;
+  font-weight: bold;
+}
+.cartGameListItem .removeGameButton:hover {
+  border-bottom: #28a745 1px solid;
+  cursor: pointer;
+}
+
+.cartGameListItem .gameDetailsInCart {
+  font-size: larger;
+  cursor: pointer;
+  color: #fff;
+}
+.cartGameListItem .plusAndMinusDiv {
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.cartGameListItem .plusAndMinusDiv * {
+  margin-left: 10px;
+  font-size: x-large;
+  height: fit-content;
+}
